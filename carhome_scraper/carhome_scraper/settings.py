@@ -57,15 +57,15 @@ ROBOTSTXT_OBEY = False
 
 # 启用或禁用爬虫中间件
 # 参考 https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    "carhome_scraper.middlewares.CarhomeScraperSpiderMiddleware": 543,
-#}
+SPIDER_MIDDLEWARES = {
+    "carhome_scraper.middlewares.CarhomeScraperSpiderMiddleware": 543,
+}
 
 # 启用或禁用下载器中间件
 # 参考 https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    "carhome_scraper.middlewares.CarhomeScraperDownloaderMiddleware": 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    "carhome_scraper.middlewares.CarhomeScraperDownloaderMiddleware": 543,
+}
 
 # 启用或禁用扩展
 # 参考 https://docs.scrapy.org/en/latest/topics/extensions.html
