@@ -96,4 +96,4 @@ scrapy crawl carhome -o output.json
 
    与 CSV 导出类似，`carhome` 是爬虫名称，`output.xml` 是导出文件的名称。
 
-这些命令会在您的 Scrapy 项目目录中创建名为 `output.csv` 或 `output.xml` 的文件，其中包含了爬虫运行期间抓取的数据。这些数据将以 CSV 或 XML 格式存储，取决于您选择的导出类型。这种方式简单快捷，适合于基本的数据导出需求。对于更复杂的数据处理和导出需求，您可能需要在 Scrapy 的 Item Pipeline 中编写自定义的导出逻辑(本项目已在 `pipelines.py` 文件中将输出文件格式写成csv格式)。  
+这些命令会在您的 Scrapy 项目目录中创建名为 `output.csv` 或 `output.xml` 的文件，其中包含了爬虫运行期间抓取的数据。这些数据将以 CSV 或 XML 格式存储，取决于您选择的导出类型。这种方式简单快捷，适合于基本的数据导出需求。对于更复杂的数据处理和导出需求，您可能需要在 Scrapy 的 Item Pipeline 中编写自定义的导出逻辑(本项目已在主分支 `pipelines.py` 文件中将输出文件格式写成csv格式)。  
