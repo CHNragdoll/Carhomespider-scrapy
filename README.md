@@ -241,9 +241,9 @@ scrapy settings --get ITEM_PIPELINES
 
 理论最大采集量：
 
-\[
+$$
 N_{max} = P \times K
-\]
+$$
 
 当前代码默认：
 
@@ -252,9 +252,9 @@ N_{max} = P \times K
 
 所以理论上限：
 
-\[
+$$
 N_{max} = 10 \times 15 = 150
-\]
+$$
 
 > 实际条数可能小于 150（比如某页展示不足 15 条、字段缺失等）。
 
